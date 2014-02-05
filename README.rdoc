@@ -1,0 +1,11 @@
+bundle
+
+
+rake db:migrate
+
+
+rackup faye.ru -s thin -E production
+
+
+rails s
+
